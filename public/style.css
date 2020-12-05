@@ -1,0 +1,7 @@
+.menu .menu-list {
+    font-size: 20px;
+}
+
+.menu .menu-list ul li a:hover {
+    color: black;
+}
