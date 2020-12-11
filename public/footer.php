@@ -2,9 +2,9 @@
 
             <!--footer starts from here -->
 
-            <div class="container-fluid mt-5 bg-primary">
+            <div class="container-fluid mt-5 bg-secondary">
                  <div class="row">
-                    <div class="col-lg-3 bg-secondary">
+                    <div class="col-lg-3">
                         <h1>TOLUWALASE</h1>
                         <p>
                         TOLUWALASE is an online store, that sells different variety of female fashion wears ranging from baby to adults.
@@ -35,7 +35,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-lg-3 bg-danger">
+                    <div class="col-lg-3">
                         <h4 class="pt-5 text-center">
                             We receive payment via secure source using 
                             PayStack and Flutterwave using your Debit card.
