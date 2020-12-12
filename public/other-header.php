@@ -17,8 +17,8 @@
 					<!-- Navbar links -->
 					<div class="collapse navbar-collapse left-top-header d-none d-lg-block d-xl-none" id="collapseTheTopHeader">
 						<ul class="navbar-nav text-white ml-auto nav-list">
-                  <li><a href="public/sign-up.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                  <li><a href="public/sign-in.php" class="pl-4"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  <li><a href="sign-up.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  <li><a href="sign-in.php" class="pl-4"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 							
 						</ul>
 					</div>
@@ -45,14 +45,14 @@
 					<!-- Navbar links -->
 					<div class="collapse navbar-collapse left-top-header menu-list" id="collapsibleNavbar" >
 						<ul class="nav navbar-nav text-white ml-auto ">
-                  <li><a href="shop.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> Shop</a></li>
-                  <li><a href="tops.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Top</a></li>
-                  <li><a href="skirt.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> Skirt</a></li>
-                  <li><a href="dress.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Dress</a></li>
-                  <li><a href="gown.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> Gown</a></li>
-                  <li><a href="jacket.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Jacket</a></li>
-                  <li><a href="aboutus.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
-                  <li><a href="contactus.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Contact Us</a></li>
+                  <li><a href="../shop.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> Shop</a></li>
+                  <li><a href="../tops.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Top</a></li>
+                  <li><a href="../skirt.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> Skirt</a></li>
+                  <li><a href="../dress.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Dress</a></li>
+                  <li><a href="../gown.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> Gown</a></li>
+                  <li><a href="../jacket.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Jacket</a></li>
+                  <li><a href="../aboutus.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
+                  <li><a href="../contactus.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Contact Us</a></li>
 							
 						</ul>
 					</div>
