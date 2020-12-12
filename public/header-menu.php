@@ -52,7 +52,7 @@
                   <li><a href="#" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> Gown</a></li>
                   <li><a href="#" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Jacket</a></li>
                   <li><a href="aboutus.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
-                  <li><a href="#" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Contact Us</a></li>
+                  <li><a href="contactus.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Contact Us</a></li>
 							
 						</ul>
 					</div>
