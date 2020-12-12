@@ -45,7 +45,7 @@
 					<!-- Navbar links -->
 					<div class="collapse navbar-collapse left-top-header menu-list" id="collapsibleNavbar" >
 						<ul class="nav navbar-nav text-white ml-auto ">
-                  <li><a href="#" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> Shop</a></li>
+                  <li><a href="shop.php" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> Shop</a></li>
                   <li><a href="#" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Top</a></li>
                   <li><a href="#" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-user"></span> Skirt</a></li>
                   <li><a href="#" class="pl-3 text-decoration-none"><span class="glyphicon glyphicon-log-in"></span> Dress</a></li>
