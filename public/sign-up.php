@@ -41,41 +41,68 @@
 
            <!-- USER REGISTRATION FORM START FROM HERE -->
 
-           <div class="container-fluid mt-5 bg-primary">
-                 <h1 class="text-center pt-5">REGISTRATION FORM</h1>
-                <div class="row justify-content-around">
-                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                          <form class="mt-4" name="userRegForm">
-                              <div class="form-group">
-                                   <input type="text" class="form-control" placeholder="Full name" name="nameOfRegForm">
-                              </div>
-                              <div id="nameErrOnUserReg" class="text-danger pl-4"></div>
+           
+          <!-- USER LOGIN FORM START FROM HERE -->
 
-                              <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Email Address" name="emailOfRegForm">
-                              </div>
-                              <div id="emailErrOnUserReg" class="text-danger pl-4"></div>
+          <div class="container-fluid mt-5" style="background-color:rgba(52,164,235,10%); ">
+                <div class="row">
 
-                              <div class="form-group">
-                                   <input type="text" class="form-control" placeholder="Mobile Number" name="phoneOfRegForm">
-                              </div>
-                              <div id="phoneErrOnUserReg" class="text-danger pl-4"></div>
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 bg-primary d-none d-md-block" style=" height:800px; border-radius:20px;" id="commentBox">
+                                
 
-                              <div class="form-group">
-                                   <input type="password" class="form-control" placeholder="Password" name="passWordOfRegForm">
-                              </div>
-                              <div id="passwordErrOnUserReg" class="text-danger pl-4"></div>
+                                <h1 style="top:25%; position:relative; text-align:center;">Hello Visitor!!!</h1>
+                                <p class="text-center" style="top:25%; position:relative;">To stay Connected with, locate your lost properties and sell more<br>Login with your registered details</p>
+                                
+                                <div align="center" style="top:30%; position:relative;">
+                                    <a href="sign-in.php"><button class="btn btn-light btn-lg" style="width:250px;">Login</button></a>
+                                </div>     
+                            </div>
 
-                              <div class="form-group">
-                                  <input type="password" class="form-control" placeholder="Confirm Password" name="confirmPassOfRegForm">
-                              </div>
-                              <div id="confirmPassErrOnUserReg" class="text-danger pl-4"></div>
 
-                              <div class="form-group" align="center">
-                                  <button class="btn btn-dark">Register</button>
-                              </div>
-                          </form>
-                     </div>
+
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                            <h1 class="text-center pt-5" style="top:10%; position:relative;">REGISTER </h1>
+
+
+
+                                    <form class="mt-4" name="userRegForm" style="top:10%; position:relative;">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Full name" name="nameOfRegForm" required>
+                                        </div>
+                                        <div id="nameErrOnUserReg" class="text-danger pl-4"></div>
+
+                                        <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Email Address" name="emailOfRegForm" required>
+                                        </div>
+                                        <div id="emailErrOnUserReg" class="text-danger pl-4"></div>
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Mobile Number" name="phoneOfRegForm" required>
+                                        </div>
+                                        <div id="phoneErrOnUserReg" class="text-danger pl-4"></div>
+
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Password" name="passWordOfRegForm" required>
+                                        </div>
+                                        <div id="passwordErrOnUserReg" class="text-danger pl-4"></div>
+
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Confirm Password" name="confirmPassOfRegForm" required>
+                                        </div>
+                                        <div id="confirmPassErrOnUserReg" class="text-danger pl-4"></div>
+
+                                        <div class="form-group" align="center">
+                                            <button class="btn btn-dark">Register</button>
+                                        </div>
+
+                                        <div class="form-group d-lg-block d-xl-none" align="center">
+                                            <span>Have account, click <span><a href="sign-in.php">Login</a>
+                                        </div>
+                                    </form>
+                            </div>
+
+
+                     
                 </div>
            </div>
 

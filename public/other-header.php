@@ -36,7 +36,7 @@
          <div class="row">
               <div class="col-12 menu">
               <nav class="navbar navbar-light navbar-expand-md">
-					       <a href="index.php" class="text-decoration-none" style="font-size:35px;font-weight:bold;">TOLUWALASE</a>
+					       <a href="../index.php" class="text-decoration-none" style="font-size:35px;font-weight:bold;">TOLUWALASE</a>
 
 					<button class="navbar-toggler navbar-light" data-toggle="collapse" data-target="#collapsibleNavbar">
 						<span class="navbar-toggler-icon"></span>

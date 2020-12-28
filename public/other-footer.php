@@ -4,7 +4,7 @@
 
             <div class="container-fluid mt-5 bg-secondary">
                  <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 d-none d-sm-none">
                         <h1>TOLUWALASE</h1>
                         <p>
                         TOLUWALASE is an online store, that sells different variety of female fashion wears ranging from baby to adults.
@@ -24,7 +24,7 @@
                         </p>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <ul class="list-unstyled p-5 text-center font-weight-bold font-size-4 h5">
                            <li><a href="" class="text-light text-decoration-none">About Us</a></li>
                            <li class="pt-3"><a href="" class="text-light text-decoration-none">Contact Us</a></li>
@@ -42,7 +42,7 @@
                         </h4>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 d-none d-lg-block d-xl-none">
                       <h4 class="pt-2">Contact Us:</h4>
                       <p>
                       Address:<br>Toluwalase Fashion Home<br>
