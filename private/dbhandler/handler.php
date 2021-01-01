@@ -1,6 +1,13 @@
-<?php
-  require_once("../auth-owners/login-own-auth.php");
+<?php  
+
   
+  function sanitize($data){
+
+    $data = trim($data);
+    $data = strip_tags($data);
+    return $data;
+}
+
 
 function adminLoggedIn(){
 

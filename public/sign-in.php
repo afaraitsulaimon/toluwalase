@@ -32,7 +32,7 @@
                      <div class="col-lg-5 col-md-4 col-sm-12 col-xs-12" style="height:700px;">
                      <h1 class="text-center pt-5" style="top:25%; position:relative;">LOGIN </h1>
 
-                          <form class="mt-4" name="userLoginForm" style="top:30%; position:relative;">
+                          <form class="mt-4" name="userLoginForm" style="top:30%; position:relative;" method="POST">
                               <div class="form-group">
                                    <input type="text" class="form-control" placeholder="Username" name="userLoginUsername" required>
                               </div>
