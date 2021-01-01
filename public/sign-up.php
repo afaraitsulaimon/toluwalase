@@ -1,3 +1,10 @@
+<?php
+  require_once("../private/config.php");
+  require_once("../private/dbhandler/handler.php");
+    require_once("../private/users-authethication/users-reg-auth.php");
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,11 +68,27 @@
 
 
                             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+
+                               <?php
+                                   // displaying successful and error messages
+
+                                   if (isset($_GET['regResult']) && $_GET['regResult'] == 'successful') {
+                                       
+                                       echo "<div class='alert alert-success'>Registration Successful</div>";
+                                   }elseif (isset($userRegErrorMessage)) {
+                                       
+                                    echo "<div class='alert alert-danger'>{$userRegErrorMessage}
+                                    
+                                    </div>";
+
+                                   }
+
+                                 ?>
                             <h1 class="text-center pt-5" style="top:10%; position:relative;">REGISTER </h1>
 
 
 
-                                    <form class="mt-4" name="userRegForm" style="top:10%; position:relative;">
+                                    <form class="mt-4" name="userRegForm" style="top:10%; position:relative;" method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF']) ?>">
                                         <div class="form-group">
                                             <input type="text" class="form-control" placeholder="Full name" name="nameOfRegForm" required>
                                         </div>
@@ -92,7 +115,7 @@
                                         <div id="confirmPassErrOnUserReg" class="text-danger pl-4"></div>
 
                                         <div class="form-group" align="center">
-                                            <button class="btn btn-dark">Register</button>
+                                            <button type="submit" class="btn btn-dark" name="userRegButton">Register</button>
                                         </div>
 
                                         <div class="form-group d-lg-block d-xl-none" align="center">
