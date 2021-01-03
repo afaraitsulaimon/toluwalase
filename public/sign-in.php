@@ -1,3 +1,11 @@
+<?php
+        require_once("../private/config.php");
+        require_once("../private/dbhandler/handler.php");
+        require_once("../private/users-authethication/users-login-auth.php");
+        session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,9 +40,16 @@
                      <div class="col-lg-5 col-md-4 col-sm-12 col-xs-12" style="height:700px;">
                      <h1 class="text-center pt-5" style="top:25%; position:relative;">LOGIN </h1>
 
+                     <?php
+                        if (isset($usersLogInErrMessages)) {
+                            
+                            echo "<div class='alert alert-danger'>{$usersLogInErrMessages}</div>";
+                        }
+                     ?>
+
                           <form class="mt-4" name="userLoginForm" style="top:30%; position:relative;" method="POST">
                               <div class="form-group">
-                                   <input type="text" class="form-control" placeholder="Username" name="userLoginUsername" required>
+                                   <input type="text" class="form-control" placeholder="Email address" name="userLoginUsername" required>
                               </div>
                               <div id="errOnUserLogin" class="text-danger pl-4"></div>
 
@@ -46,7 +61,7 @@
 
                               <div class="form-group">
                                   <button class="btn btn-danger"> Forgot your password?</button>
-                                  <button class="btn btn-dark" style="float:right">Login</button>
+                                  <button type="submit" class="btn btn-dark" style="float:right" name="usersLoginButton">Login</button>
                               </div>
 
                               <div class="form-group d-lg-block d-xl-none">

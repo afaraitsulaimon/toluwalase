@@ -109,7 +109,7 @@
             if (empty($userRegErrors)) {
                 
                 $userRegisterDetails = "INSERT INTO userregistrationdetails(fullNameOfUser,emailOfUser,phoneOfUser,passCodeOfuser,userRegDate)";
-               $userRegisterDetails .= " VALUES('$theFullnamesOfUsers','$theEmailOfUser','$thePhoneOfUsers','$thePassOfUsers', NOW()) ";
+               $userRegisterDetails .= " VALUES('$theFullnamesOfUsers','$theEmailOfUsers','$thePhoneOfUsers','$thePassOfUsers', NOW()) ";
 
                $queryUserRegDetails = mysqli_query($connect,$userRegisterDetails);
 
